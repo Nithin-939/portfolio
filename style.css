@@ -13,10 +13,10 @@
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #615a5a;
+    background: #d4cdcd;
 }
 ::-webkit-scrollbar-thumb {
-    background: #6e9377;
+    background: #3b9451;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
@@ -127,10 +127,10 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 25px;
-  color: #0E2431;
+  color: #000609;
 }
 .home .text-two{
-  color: #0E2431;
+  color: #0d7fea;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -138,12 +138,12 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #4070f4;
+  color: #14307cc8;
 }
 .home .text-four{
   font-size: 23px;
   margin: 5px 0;
-  color: #0E2431;
+  color: #310e0e;
 }
 .home .button{
   margin: 14px 0;
@@ -154,14 +154,14 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #f47640;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .home .button button:hover{
-  border-color: #4070f4;
+  border-color: #f46d40;
   background-color: #fff;
   color: #4070f4;
 }
@@ -242,20 +242,20 @@ section .button button{
   font-size: 25px;
   font-weight: 400;
   background: #4070f4;
-  color: #fff;
+  color: #ee0404;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 section .button button:hover{
   border-color: #02113a;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #f49140;
 }
 
  /* My Skills CSS */
  .skills{
-   background: #757677;
+   background: #f9fafb;
  }
  .skills .content{
    padding: 40px 0;
@@ -269,7 +269,7 @@ section .button button:hover{
    width: 50%;
  }
  .skills-details p{
-   color: #0E2431;
+   color: #05131c;
    text-align: justify;
  }
 .skills .skills-details .experience{
@@ -278,7 +278,7 @@ section .button button:hover{
   margin: 0 10px;
 }
 .skills-details .experience .num{
-  color: #012a42;
+  color: #11a0f3;
   font-size: 80px;
 }
 .skills-details .experience .exp{
@@ -300,11 +300,11 @@ section .button button:hover{
 }
 .skills-details .boxes .topic{
   font-size: 20px;
-  color: #f44040;
+  color: #b62518;
 }
 .skills-details .boxes .per{
   font-size: 60px;
-  color: #40f4df;
+  color: #ee40f4;
 }
 
 /* My Services CSS */
@@ -319,7 +319,7 @@ section .button button:hover{
   text-align: center;
   border-radius: 12px;
   padding: 30px 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 5px 10px rgba(103, 64, 64, 0.12);
   cursor: default;
   transition: all 0.4s ease;
 }
@@ -353,22 +353,35 @@ section .button button:hover{
   color: #dae0e6;
 }
 /* Contact Me CSS */
-.contact{
-  background: #406b91;
-}
-.contact .content{
-  margin: 0 auto;
-  padding: 30px 0;
-}
-.contact .text{
-  width: 80%;
-  text-align: center;
-  margin: auto;
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
 /* Footer CSS */
 footer{
-  background: #313339;
+  background: #cad0e1;
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -395,7 +408,7 @@ footer .text span a:hover{
   padding: 7px 12px;;
   font-size: 18px;
   border-radius: 6px;
-  box-shadow: rgba(38, 2, 2, 0.15);
+  box-shadow: rgba(244, 235, 235, 0.15);
   display: none;
 }
 
@@ -439,7 +452,7 @@ footer .text span a:hover{
     position: fixed;
     left: -100%;
     top: 0;
-    background: #0E2431;
+    background: #dce4e9;
     height: 100vh;
     max-width: 400px;
     width: 100%;
